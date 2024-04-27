@@ -2,13 +2,9 @@ const HeroSection = () => {
   return (
     <div className="banner">
       <nav className="nav_bar">
-        <img
-          className="logo"
-          src="/src/assets/images/LOGO.png"
-          alt="mazx_logo"
-        />
+        <img className="logo" src="/public/images/LOGO.png" alt="mazx_logo" />
 
-        <img src="/src/assets/images/menu-01.svg" alt="" className="menu" />
+        <img src="/public/images/menu-01.png" alt="" className="menu" />
       </nav>
 
       <div className="hero_content">
@@ -23,13 +19,13 @@ const HeroSection = () => {
           <div className="cta">
             <a href="#">
               Get Started
-              <img src="/src/assets/images/arrow-left-02.png" alt="" />
+              <img src="/public/images/arrow-left-02.png" alt="" />
             </a>
           </div>
         </div>
 
         <div className="hero_img">
-          <img src="/src/assets/images/heroimg.png" alt="" />
+          <img src="/public/images/heroimg.png" alt="" />
         </div>
       </div>
     </div>
