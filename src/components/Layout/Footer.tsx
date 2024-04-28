@@ -1,7 +1,7 @@
 import FooterLogo from "../../assets/images/LOGO.png";
 import SocialIcon1 from "../../assets/images/new-twitter.png";
 import SocialIcon2 from "../../assets/images/linkedin-02.png";
-import SocialIcon3 from "../../../assets/images/github.png";
+import SocialIcon3 from "../../assets/images/github.png";
 
 const Footer = () => {
   return (
