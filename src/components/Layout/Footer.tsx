@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="social_icon">
           <img src={SocialIcon1} alt="" />
           <img src={SocialIcon2} alt="" />
-          {/* <img src={SocialIcon3} alt="" /> */}
+          <img src={SocialIcon3} alt="" />
         </div>
       </div>
       <div className="footer__links">
