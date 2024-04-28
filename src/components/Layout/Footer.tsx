@@ -1,12 +1,17 @@
+import FooterLogo from "../../assets/images/LOGO.png";
+import SocialIcon1 from "../../assets/images/new-twitter.png";
+import SocialIcon2 from "../../assets/images/linkedin-02.png";
+// import SocialIcon3 from "../../../assets/images/github.png";
+
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer_logo">
-        <img src="/public/images/LOGO.png" alt="" />
+        <img src={FooterLogo} alt="" />
         <div className="social_icon">
-          <img src="/public/images/new-twitter.png" alt="" />
-          <img src="/public/images/linkedin-02.png" alt="" />
-          <img src="/public/images/github.png" alt="" />
+          <img src={SocialIcon1} alt="" />
+          <img src={SocialIcon2} alt="" />
+          {/* <img src={SocialIcon3} alt="" /> */}
         </div>
       </div>
       <div className="footer__links">

@@ -1,10 +1,15 @@
+import logo from "../../../assets/images/LOGO.png";
+import RightArrow from "../../../assets/icons/rightArrow";
+import menu from "../../../assets/images/menu-01.png";
+import HeroImage from "../../../assets/images/heroimg.png";
+
 const HeroSection = () => {
   return (
     <div className="banner">
       <nav className="nav_bar">
-        <img className="logo" src="/public/images/LOGO.png" alt="mazx_logo" />
+        <img className="logo" src={logo} alt="mazx_logo" />
 
-        <img src="/public/images/menu-01.png" alt="" className="menu" />
+        <img src={menu} alt="" className="menu" />
       </nav>
 
       <div className="hero_content">
@@ -19,13 +24,13 @@ const HeroSection = () => {
           <div className="cta">
             <a href="#">
               Get Started
-              <img src="/public/images/arrow-left-02.png" alt="" />
+              <RightArrow className="ml-2" />
             </a>
           </div>
         </div>
 
         <div className="hero_img">
-          <img src="/public/images/heroimg.png" alt="" />
+          <img src={HeroImage} alt="" />
         </div>
       </div>
     </div>
